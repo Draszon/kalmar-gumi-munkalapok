@@ -128,6 +128,7 @@
                 <div class="company-contact">Eger, Árpád u. 39.</div>
                 <div class="company-contact">Telefon: 06 36/560-231</div>
                 <div class="company-contact">info@autogumiexpo.hu</div>
+                <div class="company-contact">https://gumikalmar.hu</div>
             </div>
             <div class="client-block">
                 <div class="client-label">Ügyfél neve</div>
