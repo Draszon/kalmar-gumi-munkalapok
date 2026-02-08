@@ -11,8 +11,11 @@ use Inertia\Inertia;
 class NewWorksheet extends Controller
 {
     public function index() {
-        $services = Service::all();
-        $materials = UsedMaterial::all();
+        /*$services = Service::all();
+        $materials = UsedMaterial::all();*/
+
+        $services = Service::orderBy('service_name')->get();
+        $materials = UsedMaterial::orderBy('material_name')->get();
 
         return Inertia::render('Work', [
             'services'  => $services,
