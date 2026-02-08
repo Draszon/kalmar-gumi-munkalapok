@@ -128,13 +128,13 @@
                 <div class="company-contact">Eger, Árpád u. 39.</div>
                 <div class="company-contact">Telefon: 06 36/560-231</div>
                 <div class="company-contact">info@autogumiexpo.hu</div>
-                <div class="company-contact">https://gumikalmar.hu</div>
+                <div class="company-contact">www.gumikalmar.hu</div>
             </div>
             <div class="client-block">
                 <div class="client-label">Ügyfél neve</div>
                 <div class="client-value">{{ $worksheet->name ?: '-' }}</div>
                 <div class="client-label">Rendszám</div>
-                <div class="client-value regnum">{{ $worksheet->registration_number ?: '-' }}</div>
+                <div class="client-value regnum" style="text-transform: uppercase;">{{ $worksheet->registration_number ?: '-' }}</div>
                 <div class="client-label">Gépjármű típusa</div>
                 <div class="client-value">{{ $worksheet->car_type ?: '-' }}</div>
             </div>
